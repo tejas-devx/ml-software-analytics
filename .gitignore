@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# ML artifacts
+ml/models/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+
+# OS / editor
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
